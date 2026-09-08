@@ -1,0 +1,99 @@
+{
+    "version": 1,
+    "name": "SteamRushInputActions",
+    "maps": [
+        {
+            "name": "MockGameplay",
+            "id": "2aae8c70-a4ed-4f14-b170-54f4eddfed8f",
+            "actions": [
+                {
+                    "name": "SpawnTrap",
+                    "type": "Button",
+                    "id": "f6dae534-a479-40a0-9b8e-f3ad36ceba38",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "SpawnBuff",
+                    "type": "Button",
+                    "id": "b850ba08-3b66-47ab-9de6-dac00009998d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "AddEnergy",
+                    "type": "Button",
+                    "id": "9de99f2b-f4aa-4fc9-9518-c111535f4b27",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "AddFollower",
+                    "type": "Button",
+                    "id": "7083d1bd-dc15-4302-9afd-8fd43785256a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "54e17c42-de40-4e05-bef5-40147b89921b",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnTrap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7f25170e-e981-4560-a9a4-0c1e2c639049",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnBuff",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7e122f45-f5fa-4d12-9a5c-fbcbdb39c22e",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AddEnergy",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f93ef0cd-944e-449b-91df-21fd04ef6931",
+                    "path": "<Keyboard>/4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AddFollower",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
