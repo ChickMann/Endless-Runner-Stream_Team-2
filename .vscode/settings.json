@@ -1,7 +1,7 @@
 {
     "files.exclude": {
         "**/.DS_Store": true,
-        "**/.git": true,
+        "**/.git": false,
         "**/.vs": true,
         "**/.gitmodules": true,
         "**/.vsconfig": true,
@@ -67,5 +67,8 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Endless-Runner-Stream_Team-2.slnx"
+    "dotnet.defaultSolution": "Endless-Runner-Stream_Team-2.slnx",
+    "dotnet.server.useOmnisharp": false,
+    "editor.inlayHints.enabled": "off",
+    "editor.inlineSuggest.enabled": true
 }
