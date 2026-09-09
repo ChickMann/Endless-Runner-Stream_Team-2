@@ -11,8 +11,6 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 *.log
-.vscode/
-*.slnx
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
 *.blend1.meta
@@ -34,6 +32,9 @@
 
 # Visual Studio cache directory
 .vs/
+
+# VS Code files
+.vscode/
 
 # Gradle cache directory
 .gradle/
@@ -98,3 +99,26 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# ===== Added 08/09/2026 (MinhHuy): AI / MCP local configs — append only, khong sua dong cu =====
+# Claude Code local (skills, settings.local) — moi thanh vien tu sinh, khong share
+.claude/
+# MCP config o root chua URL + token local — tuyet doi khong push
+.mcp.json
+# Unity 6 + C# Dev Kit sinh solution kieu moi (tuong duong *.sln o tren)
+*.slnx
+StreamRushLive_Team-2_Game.slnx
+# Visual Studio config & JetBrains Rider IDE configs
+.vsconfig
+.idea/
+# Unity-MCP plugin binaries (DLL cong cu AI cua tung nguoi, khong phai code game) - moi nguoi tu cai qua Package Manager
+/Assets/Plugins/
+/Assets/Plugins.meta
+# ===== MinhHuy local-only docs (khong push) =====
+/README.md
+/AGENTS.md
+/CLAUDE.md
+/.gitmessage.txt
+/.github/
+/.cursor/
+/docs/
