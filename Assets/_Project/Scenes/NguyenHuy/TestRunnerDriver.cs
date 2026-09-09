@@ -22,7 +22,7 @@ public class TestRunnerDriver : MonoBehaviour
     {
         float distanceThisFrame = _fakeSpeedMetersPerSecond * Time.deltaTime;
         _progressTracker.AddDistance(distanceThisFrame);
-        _tileLooper.UpdateTiles(_progressTracker.TotalDistanceMeters);
+       
     }
 
     private void OnProgressChanged(float leg, float total, float goalProgress)   // thêm hàm này
