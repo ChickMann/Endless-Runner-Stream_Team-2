@@ -107,6 +107,10 @@ InitTestScene*.unity*
 .mcp.json
 # Unity 6 + C# Dev Kit sinh solution kieu moi (tuong duong *.sln o tren)
 *.slnx
+StreamRushLive_Team-2_Game.slnx
+# Visual Studio config & JetBrains Rider IDE configs
+.vsconfig
+.idea/
 # Unity-MCP plugin binaries (DLL cong cu AI cua tung nguoi, khong phai code game) - moi nguoi tu cai qua Package Manager
 /Assets/Plugins/
 /Assets/Plugins.meta
