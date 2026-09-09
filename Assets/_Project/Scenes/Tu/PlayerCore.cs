@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ProjectFGU.TuHeo.PlayerMovement 
+namespace ProjectFGU.Tu.PlayerMovement 
 {
     [RequireComponent(typeof(Rigidbody))]
     public class PlayerCore : MonoBehaviour

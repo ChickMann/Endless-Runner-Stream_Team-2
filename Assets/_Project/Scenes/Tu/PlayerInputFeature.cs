@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace ProjectFGU.TuHeo.PlayerMovement
+namespace ProjectFGU.Tu.PlayerMovement
 {
     [RequireComponent(typeof(PlayerCore))]
     public class PlayerInputFeature : MonoBehaviour
