@@ -122,5 +122,26 @@ namespace StreamRushLive.Features.Spawning
                 $"Spawner: Spawned {spawnType} from Object Pool."
             );
         }
+
+        /// <summary>
+        /// Test trả tất cả SpawnableObject đang active về Pool.
+        /// Chỉ dùng để kiểm tra Object Pooling.
+        /// </summary>
+        public void ReleaseAllSpawnedObjects()
+        {
+            SpawnableObject[] objects =
+                FindObjectsByType<SpawnableObject>(
+                    FindObjectsInactive.Exclude,
+                    FindObjectsSortMode.None
+                );
+
+            foreach (SpawnableObject spawnedObject in objects)
+            {
+                spawnedObject.ReleaseToPool();
+            }
+
+            Debug.Log("Spawner: Released all active objects to Object Pool.");
+        }
+
     }
 }
